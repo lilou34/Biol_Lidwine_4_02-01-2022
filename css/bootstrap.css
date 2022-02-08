@@ -240,7 +240,7 @@ th {
         background: 0 0 !important;
         -webkit-box-shadow: none !important;
         box-shadow: none !important
-    }
+    } 
     a,
     a:visited {
         text-decoration: underline
@@ -1548,7 +1548,7 @@ h1,
 h2,
 h3 {
     margin-top: 20px;
-    margin-bottom: 10px
+    margin-bottom: 20px
 }
 
 .h1 .small,
@@ -2304,7 +2304,13 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
+        color: #ffffff;
+    }
+    .col-sm-121
+    {
+        width: 100%;
+        color: #000000;
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -5064,15 +5070,20 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar {
     position: relative;
-    min-height: 50px;
+    min-height: 40px;
     margin-bottom: 20px;
     border: 1px solid transparent
+    h
 }
 
 @media (min-width:768px) {
     .navbar {
         border-radius: 4px
     }
+}
+.navbar-header {
+    height: 40px;
+    display: flex;
 }
 
 @media (min-width:768px) {
@@ -7682,7 +7693,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
