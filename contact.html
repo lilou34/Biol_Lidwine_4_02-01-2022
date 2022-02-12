@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Adresse de notre agence sur Lyon et formulaire de contact</title>
+		<meta name="robots" content="contact, follow">
+		<meta name="description" content="Vous souhaitez venir nous rencontrer dans nos locaux, voici nos coordonnées et informations, si vous n'êtes pas sur Lyon' un formulaire vous permet de nous contacter, vous pouvez déjà nous exposer votre projet, vos besoins créations de site, SEO, graphisme ou encore accessibilité, et vos coordonnées afin que l'on puisse vous recontacter au plus vite'">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<!-- Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54516992-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-54516992-1');
+	</script>
+	<!-- Analytics END -->
+	</head>
+	<!-- Principal conteneur -->
+	<body class="page-container">
+	<!-- bloc-0 -->
+		<header class="bloc bgc-white l-bloc container bloc-sm" id="bloc-0">
+			<nav class="navbar row">
+				<div class="navbar-header">
+						<img src="img/banniere.webp" alt="une chouette (oiseau) le logo puis nom de l'entreprise la chouette agence" id="header-logo"/>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+				</div>
+				<div class="collapse navbar-collapse special-dropdown-nav" id="navbar-1">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="index.html">Accueil</a>
+						</li>
+						<li>
+						</li>
+						<li>
+							<a href="#adresse-lyon">Venir nous voir</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- bloc-0 END -->
+		<main class="page-contact">
+		<!-- bloc-6 -->
+			<aside class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-center hero-bloc-text tc-white">
+								Parlons web design !
+							</h1>
+							<p class="text-center mg-lg tc-white tight-width-whitespace">
+								Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+								Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+							</p>
+						</div>
+					</div>
+				</div>
+			</aside>
+		<!-- bloc-6 END -->
+		<!-- bloc-7 -->
+			<article class="bloc bgc-white l-bloc" id="bloc-7">
+				<div class="container bloc-lg">
+					<div class="row">
+						<section class="col-sm-6">
+							<h2>
+								Formulaire de contact
+							</h2>
+							<form id="form_1" novalidate success-msg="bravo message envoyé" fail-msg="désolé envoi de votre formulaire impossible envoyez-nous un mail à contact@lachouetteagence.com'">
+								<div class="form-group">
+									<label>
+										Nom de famille
+									</label>
+									<input id="name" class="form-control" type="nom" placeholder="entrez votre nom de famille" required/>
+								</div>
+								<div class="form-group">
+									<label>
+										Adresse email
+									</label>
+									<input id="email" class="form-control" type="email" placeholder="example: dupont@gmail.com" required />
+								</div>
+								<div class="form-group">
+									<label>
+										Comment nous avez-vous connu ?
+									</label>
+									<input class="form-control" type="text" id="input_504" placeholder="example: par internet, par des amis"/>
+								</div>
+								<div class="form-group">
+									<label>
+										Brief de votre projet (Champs non obligatoire, nous pouvons aussi en parler de vive voix Ajoutez autant de détails que nécessaire)
+									</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="example: création de site web, charte graphique, optimisation SEO, site e-commerce. Nous sommes sur Lyon, petite entreprise ..."></textarea>
+								</div> 
+								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+									cliquez ici pour envoyer
+								</button>
+							</form>
+						</section>
+						<section class="col-sm-6" id="adresse-lyon">
+							<h2>
+								Venir nous voir à Lyon
+							</h2>
+							<address>
+								2 place Sathonay 69001 Lyon
+							</address>
+							<time>
+								Ouvert de 9h à 18h, du lundi au vendredi
+							</time>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0831373652145!2d4.827978615567682!3d45.76952407910573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eba737b66d81%3A0x8c012cddde39e0c!2sLa%20Chouette%20Agence!5e0!3m2!1sfr!2sfr!4v1643708045088!5m2!1sfr!2sfr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</section>
+					</div>
+				</div>
+			</article>
+		</main>
+		<!-- bloc-7 END -->
+		<!-- ScrollToTop Button -->
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+		<!-- ScrollToTop Button END-->
+		<!-- Footer - bloc-8 -->
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+			<div class="container bloc-sm">
+				<div class="row">
+					<div class="col-sm-121">
+						<p class="text-center white">
+							Suivez nous sur les réseaux sociaux
+						</p>
+						<div class="row row-no-gutters social">
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer - bloc-8 END -->
+		<!-- Principal conteneur END -->
+		<script src="./js/jquery-3.6.0.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/blocs.js"></script>
+		<!--<script src="./js/jqBootstrapValidation-1.3.7.min.js"></script>-->
+		<!--<script src="./js/formHandler.js"></script> -->  
+	</body>
+</html>
