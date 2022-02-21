@@ -8,18 +8,18 @@ body {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: solid 1px #364577;
     cursor: pointer;
 }
 
 
 #header-logo{
-    height: 40px;
+    height: 50px;
 }
 
 .page-contact
 {
-    font-size: 18px;
+    font-size: 22px;
 }
 iframe
 {
@@ -290,7 +290,8 @@ iframe
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 42px;
+    text-shadow: #364577;
     
 }
 
@@ -333,7 +334,7 @@ iframe
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -343,12 +344,13 @@ iframe
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: white;
 }
 
 .navbar-toggle {
-    margin: 10px 10px 0 0;
+    margin: 10px;
     border: 0px;
+    height: 40px;
 }
 
 .navbar-toggle:hover {
@@ -356,7 +358,7 @@ iframe
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 1);
     width: 26px;
 }
 
@@ -648,7 +650,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
     background: none;
 }
 
@@ -676,7 +678,7 @@ a {
 }
 q
 {
-    font-size: 24px;
+    font-size: 28px;
 }
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -693,7 +695,7 @@ q
 }
 
 p {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .tight-width-whitespace {
@@ -718,17 +720,18 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    font-size: 24px;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 36px;
     line-height: 1.4em;
     font-weight: 700;
     color: #333333;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;

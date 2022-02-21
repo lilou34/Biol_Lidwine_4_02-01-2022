@@ -944,4 +944,3 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
         })
     })
 }(jQuery);
-
