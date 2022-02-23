@@ -61,36 +61,36 @@
 			</aside>
 		<!-- bloc-6 END -->
 		<!-- bloc-7 -->
-			<article class="bloc bgc-white l-bloc" id="bloc-7">
+			<div class="bgc-white l-bloc" id="bloc-7">
 				<div class="container bloc-lg">
 					<div class="row">
-						<section class="col-sm-6">
+						<section class="col-sm-6" id="form">
 							<h2>
 								Formulaire de contact
 							</h2>
-							<form id="form_1" novalidate success-msg="bravo message envoyé" fail-msg="désolé envoi de votre formulaire impossible envoyez-nous un mail à contact@lachouetteagence.com'">
+							<form id="form_1" method="post" action="traitement.php">
 								<div class="form-group">
 									<label>
 										Nom de famille
 									</label>
-									<input id="name" class="form-control" type="nom" placeholder="entrez votre nom de famille" required autofocus/>
+									<input id="name" class="form-control" type="text" placeholder="entrez votre nom de famille" required autofocus/>
 								</div>
 								<div class="form-group">
 									<label>
 										Adresse email
 									</label>
-									<input id="email" class="form-control" type="email" placeholder="example: dupont@gmail.com" required autofocus/>
+									<input id="email" class="form-control" type="email" placeholder="example: dupont@gmail.com" required/>
 								</div>
 								<div class="form-group">
 									<label>
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="text" id="input_504" placeholder="example: par internet, par des amis" autofocus/>
+									<input class="form-control" type="text" id="input_504" placeholder="example: par internet, par des amis"/>
 								</div>
 								<div class="form-group">
 									<label>
 										Détails de votre projet (Champs non obligatoire, nous pouvons aussi en parler de vive voix Ajoutez autant de détails que nécessaire)
-									</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="example: création de site web, charte graphique, optimisation SEO, site e-commerce. Nous sommes sur Lyon, petite entreprise ..." autofocus></textarea>
+									</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="example: création de site web, charte graphique, optimisation SEO, site e-commerce. Nous sommes sur Lyon, petite entreprise ..."></textarea>
 								</div> 
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									cliquez ici pour envoyer
@@ -98,19 +98,19 @@
 							</form>
 						</section>
 						<section class="col-sm-6" id="adresse-lyon">
-							<h2>
+							<h3>
 								Venir nous voir à Lyon
-							</h2>
+							</h3>
 							<address>
 								2 place Sathonay 69001 Lyon
 							</address>
-							<time>
+							<p>
 								Ouvert de 9h à 18h, du lundi au vendredi
-							</time>
+							</p>
 						</section>
 					</div>
 				</div>
-			</article>
+			</div>
 		</main>
 		<!-- bloc-7 END -->
 		<!-- ScrollToTop Button -->
@@ -125,9 +125,9 @@
 							Suivez nous sur Facebook
 						</h3>
 						<div class="row row-no-gutters social">
-								<div class="text-center">
-									<a class="social" href="https://www.facebook.com/La-Chouette-Agence-101700188845251"><span class="fa fa-facebook icon-md"></span></a>
-								</div>
+							<div class="text-center">
+								<a class="social" href="https://www.facebook.com/La-Chouette-Agence-101700188845251" aria-label="facebook-icone"><span class="fa fa-facebook icon-md"></span></a>
+							</div>
 						</div>
 					</div>
 				</div>
