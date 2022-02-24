@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="style.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+		<link rel="apple-touch-icon" href="img/logo.webp">
 	<!-- Analytics -->
 	<!-- Analytics END -->
 	</head>
@@ -70,27 +71,31 @@
 							</h2>
 							<form id="form_1" method="post" action="traitement.php">
 								<div class="form-group">
-									<label>
+									<label for="name">
 										Nom de famille
 									</label>
-									<input id="name" class="form-control" type="text" placeholder="entrez votre nom de famille" required autofocus/>
+									<input id="name" class="form-control" type="text" placeholder="example: Durand" required autofocus/>
+									<span id="infos">pour les pros faire suivre nom de l'entreprise</span>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="email">
 										Adresse email
 									</label>
 									<input id="email" class="form-control" type="email" placeholder="example: dupont@gmail.com" required/>
+									<span id="infos">votre adresse email doit comporter @ et . (.com ou .fr ....)</span>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="input_504">
 										Comment nous avez-vous connu ?
 									</label>
 									<input class="form-control" type="text" id="input_504" placeholder="example: par internet, par des amis"/>
+									<span id="infos">champ facultatif, mais réponse appréciée</span>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="message">
 										Détails de votre projet (Champs non obligatoire, nous pouvons aussi en parler de vive voix Ajoutez autant de détails que nécessaire)
 									</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="example: création de site web, charte graphique, optimisation SEO, site e-commerce. Nous sommes sur Lyon, petite entreprise ..."></textarea>
+									<span id="infos">champ facultatif, mais réponse appréciée</span>
 								</div> 
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									cliquez ici pour envoyer
@@ -135,9 +140,11 @@
 		</footer>
 		<!-- Footer - bloc-8 END -->
 		<!-- Principal conteneur END -->
-		<script src="./js/jquery-2.1.0.min.js" async></script>
-		<script src="./js/bootstrap.min.js" async></script>
-		<script src="./js/blocs.min.js" async></script>
+		<script src="./js/jquery-2.1.0.min.js" defer></script>
+		<script src="./js/bootstrap.min.js" defer></script>
+		<script src="./js/blocs.min.js" defer></script>
+		<script src="./js/jqBootstrapValidation.min.js" defer></script>
+		<script src="./js/formHandler.min.js" defer></script>
 		
 	</body>
 </html>
